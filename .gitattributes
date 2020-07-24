@@ -1,0 +1,2 @@
+Mapbox.framework/Mapbox filter=lfs diff=lfs merge=lfs -text
+MapboxNavigationNative.framework/MapboxNavigationNative filter=lfs diff=lfs merge=lfs -text
