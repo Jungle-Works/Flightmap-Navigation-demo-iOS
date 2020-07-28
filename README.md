@@ -22,7 +22,8 @@ let destination = Waypoint(coordinate: destination, coordinateAccuracy: -1, name
  // Specify that the route is intended for automobiles avoiding traffic
 let routeOptions = NavigationRouteOptions(waypoints: [origin, destination], profileIdentifier: .automobileAvoidingTraffic)
 ```
-Once the routeOptions are generated, you can pass them to the calculate Directions.shared.calculate(routeOptions) method and draw the route on the basis of response.
+Once the routeOptions are generated, you can pass them to the calculate Directions.shared.calculate(routeOptions) method and draw the route on the basis of response.<br/>
+![Optional Text](../master/example/route.gif)
  
  # Start Navigation
 To start the navigation process make sure the route and routeOptions aren’t nil.
@@ -32,4 +33,6 @@ let navigationViewController = NavigationViewController(for: route, routeOptions
 navigationViewController.modalPresentationStyle = .fullScreen
 self.present(navigationViewController, animated: true, completion: nil)
 ```
+<br/>
+![Optional Text](../master/example/nav.gif)
  
