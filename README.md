@@ -33,6 +33,5 @@ let navigationViewController = NavigationViewController(for: route, routeOptions
 navigationViewController.modalPresentationStyle = .fullScreen
 self.present(navigationViewController, animated: true, completion: nil)
 ```
-<br/>
 ![Optional Text](../master/example/nav.gif)
  
