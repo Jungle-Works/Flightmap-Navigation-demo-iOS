@@ -4,7 +4,6 @@ Get up and running in a few minutes with our drop-in turn-by-turn navigation Nav
 
 # Integrating the Navigation SDK into your project
 To integrate Flightmap Navigation SDK into your project you’ll need a set of dependency frameworks which can be found here (https://drive.google.com/file/d/1F2ncN5pLAJkSEQ8nKwJzjyh853JEu5-j/view?usp=sharing).
-Initializing the NavigationMapView
 In order to initialize the NavigationMapView and fm_token along with a style URL is needed. If you already have an fm_token you can set it using <br/>
 ```MGLAccountManagaer.accessToken = <your_fm_token> ```
 otherwise you can register at our website (https://app.flightmap.io/v2/) and generate your fm_token.
