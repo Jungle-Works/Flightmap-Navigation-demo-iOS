@@ -3,7 +3,7 @@ Flightmap Navigation gives you all the tools you need to add turn-by-turn naviga
 Get up and running in a few minutes with our drop-in turn-by-turn navigation NavigationViewController, or build a completely custom turn-by-turn navigation app with our core components for routing and navigation.
 
 # Integrating the Navigation SDK into your project
-To integrate Flightmap Navigation SDK into your project you’ll need a set of dependency frameworks which can be found here.
+To integrate Flightmap Navigation SDK into your project you’ll need a set of dependency frameworks which can be found here (https://drive.google.com/file/d/1F2ncN5pLAJkSEQ8nKwJzjyh853JEu5-j/view?usp=sharing).
 Initializing the NavigationMapView
 In order to initialize the NavigationMapView and fm_token along with a style URL is needed. If you already have an fm_token you can set it using <br/>
 ```MGLAccountManagaer.accessToken = <your_fm_token> ```
