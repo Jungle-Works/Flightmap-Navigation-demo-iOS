@@ -7,8 +7,7 @@ To integrate Flightmap Navigation SDK into your project you’ll need a set of d
 In order to initialize the NavigationMapView and fm_token along with a style URL is needed. If you already have an fm_token you can set it using <br/>
 ```MGLAccountManagaer.accessToken = <your_fm_token> ```
 otherwise you can register at our website (https://app.flightmap.io/v2/) and generate your fm_token.
-Once the access token is set you can initialize the NavigationMapView via the initializer NavigationMapView(frame: CGRect, styleURL: String). Initially you may provide the default (https://maps.flightmap.io/styles//default.json) style URL.
-Generating route details
+Once the access token is set you can initialize the NavigationMapView via the initializer NavigationMapView(frame: CGRect, styleURL: String). Initially you may provide the default **(https://maps.flightmap.io/styles//default.json)** style URL.
 In order to generate route details, you’ll need origin and destination coordinates. The route object is generated via the function <br/>
 ```Directions.shared.calculate(_ routeOptions: NavigationRouteOptions).```
  
